@@ -1,15 +1,13 @@
 import React from 'react'
-import Posts from '../Components/posts/Posts'
 import Sidebar from '../Components/sidebar/Sidebar'
-
-
+import Header1 from '../Components/Header1/Header1'
 const Home = () => {
   return (
     <div className='home'>
     
-     <Posts/>
+     <Header1/>
      <Sidebar/>
-   
+    
     </div>
   )
 }
